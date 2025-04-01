@@ -1,0 +1,36 @@
+p{
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: bold;
+}
+h1,h2{
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    height: 100vh;
+    padding: 100px;
+    margin-top: 0;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+img{
+    width: auto;
+    height: 125px;
+}
