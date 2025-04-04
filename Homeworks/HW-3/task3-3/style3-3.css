@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    gap: 30px;
+}
+p{
+    margin: 0 40px;
+}
+#top{
+    background-color: darksalmon;
+}
+#middle{
+    background-color: cornflowerblue;
+}
+#bottom{
+    background-color: darkcyan;
+}
+a{
+    font-size: 30px;
+    color: black;
+}
