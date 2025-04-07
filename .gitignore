@@ -1,0 +1,19 @@
+.idea/
+*.iml
+.DS_Store
+node_modules/
+.shelf/
+.idea/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# Игнорировать всё в корне проекта
+/*
+
+# Но оставить gitignore и папку с домашками
+!.gitignore
+!Homeworks/
+!Homeworks/**
+
+/lessons
