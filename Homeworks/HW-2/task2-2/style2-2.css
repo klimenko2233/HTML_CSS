@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    transition: 1.2s;
+}
+.box:hover{
+    border-radius: 50%;
+    background-color: darkgray;
+    transform: scale(1.2);
+}

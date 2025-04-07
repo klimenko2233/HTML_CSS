@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #D9D9D9;
+    height: 4vh;
+}
+main{
+    display: flex;
+    height: 74vh;
+}
+section{
+    background-color: #A4A4A4;
+    height: 100%;
+    width: 60vw;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+}
+.top_aside{
+    background-color: #7F7A7A;
+    height: 40vh;
+    width: 40vw;
+}
+.bottom_aside{
+    background-color: #615050;
+    height: 34vh;
+    width: 40vw;
+}
+.first_footer{
+    background-color: #D9D9D9;
+    height: 10vh;
+}
+.second_footer{
+    background-color: #A4A4A4;
+    height: 12vh;
+}

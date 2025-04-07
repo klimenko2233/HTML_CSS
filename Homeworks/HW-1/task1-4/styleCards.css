@@ -1,0 +1,9 @@
+body {
+    margin-left: 50px;
+    font-size: 60px;
+}
+
+span{
+    background-color: lightgray;
+    padding: 2px 25px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+header, footer{
+    height: 22vh;
+    background-color: #D9D9D9;
+}
+main{
+    height: 56vh;
+    display: flex;
+}
+aside{
+    background-color: #C0BDBD;
+    width: 27vw;
+}
+div{
+    width: 46vw;
+}
+.top_section{
+    height: 26vh;
+    background-color: #827878;
+}
+.bottom_section{
+    height: 30vh;
+    background-color: #B7ADAD;
+}
+

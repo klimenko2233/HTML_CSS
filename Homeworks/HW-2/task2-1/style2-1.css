@@ -1,0 +1,38 @@
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+}
+body{
+    height: 100vh;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    border: 2px solid darkgray;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+img{
+    width: auto;
+    height: 170px;
+}
