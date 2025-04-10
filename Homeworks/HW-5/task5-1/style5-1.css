@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px dashed rebeccapurple;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+div{
+    margin: 50px;
+}
+/--------------------------another_loader-----------------------------------------/
+.jumping-cat{
+    display: flex;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+.jumping-cat span {
+    display: inline-block;
+}
+.first-cat{
+    animation: jump 1s infinite;
+    animation-delay: 0s;
+}
+.second-cat{
+    animation: jump 1s infinite;
+    animation-delay: 0.3s;
+}
+.third-cat{
+    animation: jump 1s infinite;
+    animation-delay: 0.6s;
+}
+@keyframes jump{
+    from{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
