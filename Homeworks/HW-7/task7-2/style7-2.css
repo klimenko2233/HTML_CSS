@@ -144,21 +144,21 @@ header h2{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
-.icons>div{
+.icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 18px;
 }
-.icons div div:first-of-type{
+.icon div:first-of-type{
     width: 56.144px;
     height: 56px;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 18px;
 }
 .icons div:nth-child(1) div:first-of-type{
     background: #FF6853;
@@ -175,17 +175,22 @@ header h2{
 .icons div:nth-child(5) div:first-of-type{
     background: #95CB7C;
 }
-.icons h4{
+.icon div:last-of-type{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+}
+.icon h4{
     width: 38.098px;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 3px;
 }
-.icons p{
-    width: 101.26px;
+.icon p{
     color:#8E88C1;
     font-size: 16px;
     font-style: normal;
